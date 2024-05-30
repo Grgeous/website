@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: deeppink;
+}
+
+header {
+    background-color: rgb(247, 145, 162);
+    color: #fff;
+    padding: 10px 0;
+    align-items: center;
+}
+.logo{
+    width:100px
+}
+
+.cover-img{
+    width: 100%;
+    height: auto;
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+    font-family: Arial, sans-serif;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bb {
+    background: url("c:\Users\Admin\Documents\WEB 1\img\covs.jpg") no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.bb .container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.bb h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.bb p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product .container {
+    width: 80%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+.prod .container1 {
+    width: 80%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+}
+
+.prod h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.prod-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prod-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.prod-item img {
+    max-width: 100%;
+    height: auto;
+}
