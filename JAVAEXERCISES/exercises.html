@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script> 
+    function myFunction(){
+        document.getElementById("Demo").innerHTML="Hello World";
+    }
+    </script>
+</head>    
+<body>
+    <h1 id="Demo"> </h1>
+    <p>Assign an"onload event to an iframe element.</p>
+    <iframe onload="myFunction()" src="/default.asp"></iframe>
+
+    <script>
+        function myFunction(){
+            document.getElementById("Demo").innerHTML="Hello World";
+        }
+    </script>
+</body>
+
+</html>
