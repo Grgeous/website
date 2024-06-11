@@ -39,7 +39,7 @@ header {
     
 }
 .cover-img{
-    width: 1215px;
+    width: 100%;
     height: 500px;
     border: 5px solid;
     color: #000000;
