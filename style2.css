@@ -3,24 +3,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(255, 0, 162);
     
 }
-.container{
+.containert{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.logo img{
-    max-height: 100px;
-}
-nav{
-    background-color: palevioletred;
-    padding: 10px;
+    background-color: rgb(252, 216, 34);
+    font-weight: bold;
+    font-size: large;
+    
 }
 .nav-list{
     list-style: none;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: flex-end;
 }
@@ -32,32 +29,43 @@ nav{
 }
 .nav-list a:hover{
     background-color: crimson;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 header {
-    background-color: rgb(247, 145, 162);
     color: #fff;
     padding: 10px 0;
     align-items: center;
-    width: 1230px;
+    
+    
 }
+.cover-img{
+    width: 1215px;
+    height: 500px;
+    border: 5px solid;
+    color: #000000;
+}
+
 .logo{
-    width:100px
+    width: 120px;
+    padding-left: 10px;
+    
 }
 .bb {
-    background: url("c:\Users\Admin\Documents\WEB 1\img\covs.jpg") no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    padding: 50px 0;
+    padding: 70px 0;
+    
     
 }
 .bb .container {
-    width: 80%;
+    width: 95%;
+    height: 40%;
     margin: 0 auto;
     font-family: 'Segoe UI', sans-serif;
-    background-color: fuchsia;
+    background-color: rgb(96, 219, 59);
     border-radius: 20px;
     padding-right: 30px;
+    border: 2px solid;
 }
 .bb h2 {
     margin: 0;
@@ -74,14 +82,15 @@ header {
     background-color: #333;
     text-decoration: none;
     border: 2px solid;
-    border-radius: 20px;
+    border-radius: 10px;
 }
-.product .container {
-    width: 80%;
+.containers {
+    width: 100%;
     margin: 50px auto;
     font-family: Arial, sans-serif;
     border: 2px solid;
     border-radius: 20px;
+    background-color: rgb(253, 182, 29);
     
 }
 .products h2 {
@@ -96,23 +105,34 @@ header {
 .product-item {
     border: 2px solid;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 15%;
-    text-align: center;  
+    text-align: center; 
+    box-sizing: border-box;
+    height: fit-content;
+}
+.price{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffd21c;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+
 }
 .product-item img {
-    max-width: 70px;
+    max-width: 150px;
     height: auto;
-}
-.container1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 .prod .container1 {
-    width: 80%;
+    width: 99.9%;
     margin: 50px auto;
     font-family: Arial, sans-serif;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgb(220, 181, 129);
 }
 .prod h2 {
     text-align: center;
@@ -126,18 +146,148 @@ header {
 .prod-item {
     border: 2px solid;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     width: 15%;
-    text-align: center;  
+    text-align: center; 
+    box-sizing: border-box;
+    height: fit-content;    
 }
 .prod-item img {
-    max-width: 60%;
+    max-width: 150px;
     height: auto;
+    justify-content: center;
+}
+
+.container2 {
+    width: 99.9%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgb(252, 143, 60);
+    
+}
+.terno h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.coords-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.coords-item {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 15%;
+    text-align: center; 
+    box-sizing: border-box;
+    height: fit-content;
+}
+.price{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffd21c;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+.coords-item img {
+    max-width: 150px;
+    height: auto;
+    justify-content: center;
+}
+
+
+
+.container3 {
+    width: 99.9%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgb(220, 89, 19);
+    
+}
+.summer h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.summs-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.summs-item {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 15%;
+    text-align: center; 
+    box-sizing: border-box;
+    height: fit-content;
+}
+.price{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffd21c;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+.summs-item img {
+    max-width: 150px;
+    height: auto;
+    justify-content: center;
+}
+.about us{
+    padding: 2rem;
+    text-align: center;
+    background-color: #ffd21c;
+}
+.about us h1{
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1 rem;
+}
+.about p{
+    font-size: medium;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.review{
+    background-color: #ffd21c;
+    border: 1 px solid;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 130px;
+    text-align: center;
+}
+.review img{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    height: fit-content;
 }
 .contact-link{
     color: #3b5998;
     text-decoration: none;
     font-weight: bold;
+    font-size: larger;
 
 }
 .contact-link:hover{
