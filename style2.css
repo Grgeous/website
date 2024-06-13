@@ -248,7 +248,10 @@ header {
 .about us{
     padding: 2rem;
     text-align: center;
-    background-color: #ffd21c;
+    background-color: rgb(96, 219, 59);
+    border-radius: 20px;
+    padding-right: 30px;
+    border: 2px solid;
 }
 .about us h1{
     text-align: center;
