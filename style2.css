@@ -39,7 +39,7 @@ header {
     
 }
 .cover-img{
-    width: 2000px;
+    width: 1500px;
     height: 700px;
     border: 5px solid;
     color: #000000;
@@ -286,6 +286,10 @@ header {
 }
 .contact{
     margin-botoom:20px
+    background-color: rgb(96, 219, 59);
+    border-radius: 20px;
+    padding-right: 30px;
+    border: 2px solid;
 }
 .contact p{
     margin:10px 0
