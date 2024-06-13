@@ -39,7 +39,7 @@ header {
     
 }
 .cover-img{
-    width: 1500px;
+    width: 1200px;
     height: 700px;
     border: 5px solid;
     color: #000000;
@@ -289,16 +289,16 @@ header {
 }
 .contact{
     margin-botoom:20px
-    background-color: rgb(96, 219, 59);
+   background-color: #ffd21c;
     border-radius: 20px;
-    padding-right: 30px;
+    padding-right: 15px;
     border: 2px solid;
 }
 .contact p{
     margin:10px 0
 }
 .contact a{
-   color:pink;
+    color:pink;
     text decoration: none;
 }
 .contact-link{
