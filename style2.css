@@ -259,6 +259,11 @@ header {
     margin-bottom: 1 rem;
 }
 .about p{
+    background-color: rgb(96, 219, 59);
+    border-radius: 20px;
+    padding-right: 30px;
+    border: 2px solid;
+    font-weight: bold;
     font-size: medium;
     line-height: 1.6;
     max-width: 600px;
